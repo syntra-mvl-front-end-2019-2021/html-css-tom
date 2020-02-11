@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.tail{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 90px;
+    background-color: brown;
+}
+
+.body{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    animation-name: zweven;
+    animation-fill-mode: initial;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes zweven{
+    0%{
+        top: 200px;
+    }
+    50%{
+        top: 300px;
+    }
+    100%{
+        top: 200px;
+    }
+}
+
+.head{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    left: 700px;
+    top: -100px;
+}
+
+.eye{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    float: right;
+    right: 20px;
+    top: 20px;
+}
+
+.ear{
+    position: relative;
+    width: 90px;
+    height: 100px;
+    background-color: brown;
+    left: -10px;
+}
+
+.body-color{
+    width: 500px;
+    height: 200px;
+}
+
+.color-4{
+    position: relative;
+    box-shadow: inset blue 0px 0px 0px 20px;
+
+}
+
+.color-3{
+    position: relative;
+    box-shadow: inset yellow 0px 0px 0px 40px;
+  
+}
+
+.color-2{
+    position: relative;
+    box-shadow: inset green 0px 0px 0px 60px;
+  
+}
+
+.color-1{
+
+    background-color: blue;
+    box-shadow: inset red 0px 0px 0px 80px;
+    position: absolute;
+    left: 200px;
+}
+
+.paw-left{
+    position: absolute;
+    width: 20px;
+    height: 150px;
+    background-color: brown;
+    left: 200px;
+    top: 200px;
+}
+
+.paw-right{
+    position: absolute;
+    width: 20px;
+    height: 150px;
+    background-color: brown;
+    left: 680px;
+    top: 200px;
+}
+

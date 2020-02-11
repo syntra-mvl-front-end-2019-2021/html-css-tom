@@ -1,0 +1,36 @@
+.container{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+
+
+.top{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+} 
+
+.right{
+    width: 200px;
+    height: 500px;
+    background-color: red;
+    float: right;
+    clear: right;
+}
+
+.left{
+    width: 200px;
+    height: 500px;
+    background-color: green;
+    float: left;
+}
+
+.bottom{
+    width: 500px;
+    height: 200px;
+    background-color: yellow;
+    float: right;
+}
